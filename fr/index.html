@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -16,136 +16,151 @@
         <script type="module" src="../src/js/carousel.js"></script>
     </head>
     <body>
-        <header>
-            <section>
-                <a href="/fr/index.html" class="logo">
-                    <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg">
+        <header class="header">
+            <section class="header__top">
+                <a href="/fr/index.html" class="header__logo">
+                    <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg" alt="Logo Trajectory">
                 </a>
-                <button type="button">
-                    <img src="/assets/img/icons/icons/menuiconblack.svg">
+                <button type="button" class="header__menu-btn" aria-label="Ouvrir le menu" aria-expanded="false">
+                    <img src="/assets/img/icons/icons/menuiconblack.svg" alt="">
                 </button>
             </section>
-            <nav>
-                <div>
-                    <a href="/fr/index.html">
-                        <img src="/assets/img/icons/icons/trajectorylogo.svg">
+            <nav class="header__nav" aria-hidden="true">
+                <div class="header__nav-top">
+                    <a href="/fr/index.html" class="header__nav-logo">
+                        <img src="/assets/img/icons/icons/trajectorylogo.svg" alt="Logo Trajectory">
                     </a>
-                    <img src="/assets/img/icons/icons/crossicon.svg">
+                    <img src="/assets/img/icons/icons/crossicon.svg" alt="Fermer le menu" class="header__nav-close">
                 </div>
-                <a>Katherine Johnson</a>
-                <a>Recherches & Théories</a>
-                <a>Les figures de l'ombre</a>
-                <a>L'effet Matilda</a>
-                <a>Les femmes de science dans la littérature</a>
-                <a>Filmographie</a>
-                <a>À propos</a>
-                <a>Contact</a>
-                <a>Autres projets</a>
-                <a>Glossaire</a>
+                <ul class="header__nav-list">
+                    <li class="header__nav-item"><a href="/fr/katherinejohnson.html">Katherine Johnson</a></li>
+                    <li class="header__nav-item"><a href="/fr/recherches-theories.html">Recherches & Théories</a></li>
+                    <li class="header__nav-item"><a href="/fr/figures-ombres.html">Les figures de l'ombre</a></li>
+                    <li class="header__nav-item"><a href="/fr/effet-matilda.html">L'effet Matilda</a></li>
+                    <li class="header__nav-item"><a href="/fr/femmes-litterature.html">Les femmes de science dans la littérature</a></li>
+                    <li class="header__nav-item"><a href="/fr/filmographie.html">Filmographie</a></li>
+                    <li class="header__nav-item"><a href="/fr/a-propos.html">À propos</a></li>
+                    <li class="header__nav-item"><a href="/fr/contact.html">Contact</a></li>
+                    <li class="header__nav-item"><a href="/fr/autres-projets.html">Autres projets</a></li>
+                    <li class="header__nav-item"><a href="/fr/glossaire.html">Glossaire</a></li>
+                </ul>
             </nav>
         </header>
         <main>
-            <section>
-                <h1>Trajectory</h1>
-                <p>Bienvenue sur ce site consacré à Katherine Johnson, mathématicienne de la NASA dont les calculs ont été essentiels à la conquête spatiale. Son histoire illustre l'effet Matilda, ce phénomène qui consiste à minimiser ou effacer la contribution des femmes en sciences. Ce site valorise son parcours et celui d'autres femmes scientifiques trop souvent oubliées, pour mieux comprendre et combattre ces biais.</p>
-                <button type="button" onclick="window.location.href='/fr/katherinejohnson.html'">
+            <section class="hero">
+                <img class="hero__img">
+                <h1 class="hero__title">Trajectory</h1>
+                <p class="hero__text">
+                    Bienvenue sur ce site consacré à Katherine Johnson, mathématicienne de la NASA dont les calculs ont été essentiels à la conquête spatiale. 
+                    Son histoire illustre l'effet Matilda, ce phénomène qui consiste à minimiser ou effacer la contribution des femmes en sciences. 
+                    Ce site valorise son parcours et celui d'autres femmes scientifiques trop souvent oubliées, pour mieux comprendre et combattre ces biais.
+                </p>
+                <button type="button" class="hero__cta" onclick="window.location.href='/fr/katherinejohnson.html'">
                     Découvrir Katherine Johnson
                 </button>
-                <figure>
-                    <img src="/assets/img/images/homepage/kjathisdeck.avif" alt="Katherine Johnson assise à son bureau, travaillant sur des calculs mathématiques.">
-                    <figcaption>Katherine Johnson à son bureau à la NASA, années 1960</figcaption>
+                <figure class="hero__figure">
+                    <img class="hero__figure-img" src="/assets/img/images/homepage/kjathisdeck.avif" alt="Katherine Johnson assise à son bureau, travaillant sur des calculs mathématiques.">
+                    <figcaption class="hero__figure-caption">Katherine Johnson à son bureau à la NASA, années 1960</figcaption>
                 </figure>
             </section>
-            <article>
-                <h2>Qui est Katherine Johnson ?</h2>
-                <p><a href="https://fr.wikipedia.org/wiki/Katherine_Johnson">Katherine Johnson</a> (1918-2020) était une mathématicienne et ingénieure spatiale afro-américaine dont les calculs précis ont été essentiels aux premiers succès de la NASA. Son travail a permis de définir les trajectoires des missions historiques, notamment celles d'Alan Shepard et d'Apollo 11, la première mission lunaire. Malgré les barrières raciales et sexistes de son époque, elle s'est imposée par son expertise et a contribué à la conquête spatiale américaine. Katherine Johnson incarne le combat pour la reconnaissance des femmes en sciences et illustre parfaitement l'effet Matilda.</p>
+            <article class="article">
+                <h2 class="article__title">Qui est Katherine Johnson ?</h2>
+                <p class="article__text">
+                    <a href="https://fr.wikipedia.org/wiki/Katherine_Johnson">Katherine Johnson</a> (1918-2020) était une mathématicienne et ingénieure spatiale afro-américaine dont les calculs précis ont été essentiels aux premiers succès de la NASA. 
+                    Son travail a permis de définir les trajectoires des missions historiques, notamment celles d'Alan Shepard et d'Apollo 11, la première mission lunaire. 
+                    Malgré les barrières raciales et sexistes de son époque, elle s'est imposée par son expertise et a contribué à la conquête spatiale américaine. 
+                    Katherine Johnson incarne le combat pour la reconnaissance des femmes en sciences et illustre parfaitement l'effet Matilda.
+                </p>
             </article>
             <section class="carousel">
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/katherine_johnson.avif" alt="Katherine Johnsonn se faisant médaillé par le président Obama">
-                    <div>
-                        <h3>Katherine Johnson</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Plonge dans l’histoire fascinante de Katherine Johnson, la “calculatrice humaine” qui a envoyé les astronautes sur la Lune et changé la science pour toujours.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/katherine_johnson.avif" alt="Katherine Johnson se faisant médailler par le président Obama">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">Katherine Johnson</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Plonge dans l'histoire fascinante de Katherine Johnson, la "calculatrice humaine" qui a envoyé les astronautes sur la Lune et changé la science pour toujours.</p>
                     </div>
                 </div>
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/research_theories.avif" alt="Portrait de Katherine Johnson en train de travailler">
-                    <div>
-                        <h3>Recherches & Théories</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Explore les découvertes et méthodes innovantes de Katherine Johnson : des calculs révolutionnaires qui ont changé l’histoire de la conquête spatiale.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/research_theories.avif" alt="Portrait de Katherine Johnson en train de travailler">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">Recherches & Théories</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Explore les découvertes et méthodes innovantes de Katherine Johnson : des calculs révolutionnaires qui ont changé l'histoire de la conquête spatiale.</p>
                     </div>
                 </div>
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/hidden_figures.avif" alt="Affiche du film Les figures de l'ombre">
-                    <div>
-                        <h3>Les figures de l'ombre</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Découvre le film “Les figures de l’ombre” : l’histoire inspirante de Katherine Johnson et des pionnières oubliées de la NASA enfin portée à l’écran.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/hidden_figures.avif" alt="Affiche du film Les figures de l'ombre">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">Les figures de l'ombre</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Découvre le film "Les figures de l'ombre" : l'histoire inspirante de Katherine Johnson et des pionnières oubliées de la NASA enfin portée à l'écran.</p>
                     </div>
                 </div>
             </section>
-            <article>
-                <h2>L'effet Matilda ?</h2>
-                <p>L’effet Matilda désigne le déni ou la minimisation récurrente du travail des femmes scientifiques au profit de leurs collègues masculins. Ce phénomène, théorisé par Margaret Rossiter, met en lumière les biais de genre au sein de la recherche et la nécessité d’une reconnaissance plus équitable.</p>
+            <article class="article">
+                <h2 class="article__title">L'effet Matilda ?</h2>
+                <p class="article__text">
+                    L'effet Matilda désigne le déni ou la minimisation récurrente du travail des femmes scientifiques au profit de leurs collègues masculins. 
+                    Ce phénomène, théorisé par Margaret Rossiter, met en lumière les biais de genre au sein de la recherche et la nécessité d'une reconnaissance plus équitable.
+                </p>
             </article>
             <section class="carousel">
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/matilda_effect.avif" alt="Portraits de femmes pionnières, symboles de science">
-                    <div>
-                        <h3>Katherine Johnson</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Plonge dans l’histoire fascinante de Katherine Johnson, la “calculatrice humaine” qui a envoyé les astronautes sur la Lune et changé la science pour toujours.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/matilda_effect.avif" alt="Portraits de femmes pionnières, symboles de science">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">L'effet Matilda</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Comprends le phénomène qui a effacé les contributions des femmes scientifiques et découvre comment le combattre aujourd'hui.</p>
                     </div>
                 </div>
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/women_in_litterature.avif" alt="Une femme en train d'écrire un livre">
-                    <div>
-                        <h3>Recherches & Théories</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Explore les découvertes et méthodes innovantes de Katherine Johnson : des calculs révolutionnaires qui ont changé l’histoire de la conquête spatiale.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/women_in_litterature.avif" alt="Une femme en train d'écrire un livre">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">Femmes de science dans la littérature</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Comment la littérature redonne vie aux figures féminines oubliées de l'histoire des sciences.</p>
                     </div>
                 </div>
                 <div class="carousel__card">
-                    <img src="/assets/img/images/cards/filmography.avif" alt="Dessin d'une femme et d'un homme illustrant l'effet Matilda">
-                    <div>
-                        <h3>Les figures de l'ombre</h3>
-                        <p>Nathan Batista Balanche</p>
-                        <p>Découvre le film “Les figures de l’ombre” : l’histoire inspirante de Katherine Johnson et des pionnières oubliées de la NASA enfin portée à l’écran.</p>
+                    <img class="carousel__img" src="/assets/img/images/cards/filmography.avif" alt="Dessin d'une femme et d'un homme illustrant l'effet Matilda">
+                    <div class="carousel__content">
+                        <h3 class="carousel__title">Filmographie</h3>
+                        <p class="carousel__author">Nathan Batista Balanche</p>
+                        <p class="carousel__text">Les films et documentaires qui racontent les histoires vraies des femmes scientifiques pionnières.</p>
                     </div>
                 </div>
             </section>
         </main>
-        <footer>
-            <div>
-                <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg">
-                <a href="/en/index.html">
+        <footer class="footer">
+            <div class="footer__col footer__col--logo">
+                <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg" alt="Logo Trajectory" class="footer__logo">
+                <a href="/en/index.html" class="footer__lang">
                     <img src="/assets/img/images/flags/enflag.avif" alt="Drapeau Anglais">
                 </a>
             </div>
-            <div>
-                <a href="tiktok.com">
-                    <img src="/assets/img/icons/icons/tiktokicon.svg">
+            <div class="footer__col footer__col--social">
+                <a href="tiktok.com" class="footer__social-link">
+                    <img src="/assets/img/icons/icons/tiktokicon.svg" alt="TikTok">
                 </a>
-                <a href="instagram.com">
-                    <img src="/assets/img/icons/icons/instagramicon.svg">
+                <a href="instagram.com" class="footer__social-link">
+                    <img src="/assets/img/icons/icons/instagramicon.svg" alt="Instagram">
                 </a>
-                <a href="x.com">
-                    <img src="/assets/img/icons/icons/xicon.svg">
+                <a href="x.com" class="footer__social-link">
+                    <img src="/assets/img/icons/icons/xicon.svg" alt="X">
                 </a>
-                <a href="linkedin.com">
-                    <img src="/assets/img/icons/icons/linkedinicon.svg">
+                <a href="linkedin.com" class="footer__social-link">
+                    <img src="/assets/img/icons/icons/linkedinicon.svg" alt="LinkedIn">
                 </a>
             </div>
-            <div>
-                <p>Contact</p>
-                <p>+33 X XX XX XX XX</p>
-                <p>nathan.batista_balanche@edu.univ-fcomte.fr</p>
+            <div class="footer__col footer__col--contact">
+                <p class="footer__title">Contact</p>
+                <p class="footer__text">+33 X XX XX XX XX</p>
+                <p class="footer__text">nathan.batista_balanche@edu.univ-fcomte.fr</p>
             </div>
-            <div>
-                <p>Mention légale</p>
-                <p>© 2026 Trajectory. Tous droits réservés.</p>
+            <div class="footer__col footer__col--legal">
+                <p class="footer__title">Mention légale</p>
+                <p class="footer__text">© 2026 Trajectory. Tous droits réservés.</p>
             </div>
         </footer>
     </body>
