@@ -11,7 +11,7 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Inder&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
         <link rel="shortcut icon" href="/assets/img/icons/favicon/favicon.ico">
-        <link rel="stylesheet" href="/src/css/style.csss">
+        <link rel="stylesheet" href="/src/css/style.css">
         <script type="module" src="../src/js/menu.js"></script>
         <script type="module" src="../src/js/carousel.js"></script>
     </head>
@@ -21,7 +21,7 @@
                 <a href="/fr/index.html" class="header__logo">
                     <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg" alt="Logo Trajectory">
                 </a>
-                <button type="button" class="header__menu-btn" aria-label="Open the menu" aria-expanded="false">
+                <button type="button" class="header__nav-open" aria-label="Open the menu" aria-expanded="false">
                     <img src="/assets/img/icons/icons/menuiconblack.svg" alt="">
                 </button>
             </section>
@@ -30,19 +30,21 @@
                     <a href="/fr/index.html" class="header__nav-logo">
                         <img src="/assets/img/icons/icons/trajectorylogo.svg" alt="Logo Trajectory">
                     </a>
-                    <img src="/assets/img/icons/icons/crossicon.svg" alt="Close the menu" class="header__nav-close">
+                    <button type="button" class="header__nav-close" aria-label="Close the menu">
+                        <img src="/assets/img/icons/icons/crossicon.svg" alt="Close the menu" class="header__nav-close__button">
+                    </button>
                 </div>
                 <ul class="header__nav-list">
-                    <li class="header__nav-item"><a href="/fr/katherinejohnson.html">Katherine Johnson</a></li>
-                    <li class="header__nav-item"><a href="/fr/recherches-theories.html">Research & Theories</a></li>
-                    <li class="header__nav-item"><a href="/fr/figures-ombres.html">Hidden Figures</a></li>
-                    <li class="header__nav-item"><a href="/fr/effet-matilda.html">Matilda Effect</a></li>
-                    <li class="header__nav-item"><a href="/fr/femmes-litterature.html">Women in Science Literature</a></li>
-                    <li class="header__nav-item"><a href="/fr/filmographie.html">Filmography</a></li>
-                    <li class="header__nav-item"><a href="/fr/a-propos.html">About Us</a></li>
-                    <li class="header__nav-item"><a href="/fr/contact.html">Contact</a></li>
-                    <li class="header__nav-item"><a href="/fr/autres-projets.html">Other Projects</a></li>
-                    <li class="header__nav-item"><a href="/fr/glossaire.html">Glossary</a></li>
+                    <li class="header__nav-item"><a href="/en/katherinejohnson.html">Katherine Johnson</a></li>
+                    <li class="header__nav-item"><a href="/en/researchtheories.html">Research & Theories</a></li>
+                    <li class="header__nav-item"><a href="/en/hiddenfigures.html">Hidden Figures</a></li>
+                    <li class="header__nav-item"><a href="/en/matildaeffect.html">Matilda Effect</a></li>
+                    <li class="header__nav-item"><a href="/en/womeninlitterature.html">Women in Science Literature</a></li>
+                    <li class="header__nav-item"><a href="/en/filmography.html">Filmography</a></li>
+                    <li class="header__nav-item"><a href="/en/aboutus.html">About Us</a></li>
+                    <li class="header__nav-item"><a href="/en/contact.html">Contact</a></li>
+                    <li class="header__nav-item"><a href="/en/otherprojects.html">Other Projects</a></li>
+                    <li class="header__nav-item"><a href="/en/glossary.html">Glossary</a></li>
                 </ul>
             </nav>
         </header>
@@ -51,8 +53,8 @@
                 <footer class="footer">
             <div class="footer__col footer__col--logo">
                 <img src="/assets/img/icons/icons/trajectorylogowhitebg.svg" alt="Logo Trajectory" class="footer__logo">
-                <a href="/en/index.html" class="footer__lang">
-                    <img src="/assets/img/images/flags/enflag.avif" alt="Button to go to the English version of the site">
+                <a href="/fr/otherprojects.html" class="footer__lang">
+                    <img src="/assets/img/images/flags/frflag.avif" alt="Button to go to the French version of the site">
                 </a>
             </div>
             <div class="footer__col footer__col--social">
