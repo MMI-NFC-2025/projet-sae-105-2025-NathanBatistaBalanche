@@ -1,0 +1,27 @@
+/* Color */
+:root {
+  /* Mode 1 */
+  /* color */
+  --black: rgb(6 6 6);
+  --dark-gray-1: rgb(59 59 59);
+  --dark-gray-2: rgb(80 79 79);
+  --light-gray-1: rgb(249 249 249);
+  --light-gray-2: rgb(238 238 238);
+  --light-gray-3: rgb(150 150 150);
+  --purple-1: rgb(139 40 185);
+  --purple-2: rgb(78 26 96);
+  --purple-3: rgb(105 17 134);
+  --purple-4: rgb(201 160 221);
+}
+/* Font */
+:root {
+  /* Mode 1 */
+  /* number */
+  --small-text: 0.75rem;
+  --body-2: 0.875rem;
+  --button: 0.9375rem;
+  --body: 1rem;
+  --heading-3: 1.25rem;
+  --heading-2: 1.5rem;
+  --heading-1: 2.125rem;
+}
