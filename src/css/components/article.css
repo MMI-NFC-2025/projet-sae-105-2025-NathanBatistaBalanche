@@ -1,0 +1,68 @@
+.article__title {
+    width: 22.6875rem;
+}
+
+.article__text {
+    width: 22.6875rem;
+    color: var(--black);
+    font-size: var(--body-2);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article__figure-caption{
+    color: var(--light-gray-3, #969696);
+    text-align: center;
+    font-family: Poppins;
+    font-size: var(--small-text, 12px);
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+
+.article__video {
+    width: 22.6875rem;
+}
+
+.article__byline {
+    padding: 0rem;
+    margin-top: 0rem;
+    font-family: 'Poppins', sans-serif;
+    font-size: 0.92rem;
+    font-weight: 400;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.4rem;
+}
+
+.article__byline-author {
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: -0.01em;
+    color: rgb(6, 6, 6);
+}
+
+.article__byline-author span { /* Seulement "Nathan Batista Balanche" */
+    color: rgb(105, 17, 134);
+}
+
+.article__byline-date {
+    color: rgb(150, 150, 150);
+    font-weight: 400;
+    letter-spacing: 0.3px;
+    padding-left: 0.9rem;
+}
+
+.article__byline-author {
+    padding-left: 0rem;
+}
+
+@media (max-width: 768px) {
+    .article__byline { padding: 1.8rem 2rem; margin-top: 3rem; }
+}
+
+@media (max-width: 480px) {
+    .article__byline { padding: 1.5rem 1.2rem; }
+}
