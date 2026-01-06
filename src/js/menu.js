@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
-  const menu = document.querySelector('.menu');
-  const openButton = document.querySelector('.header__menu-button');
-  const closeButton = document.querySelector('.menu__close-button');
+  const menu = document.querySelector('.header__nav');
+  const openButton = document.querySelector('.header__nav-open');
+  const closeButton = document.querySelector('.header__nav-close');
   const body = document.body;
 
   if (!menu || !openButton || !closeButton) return;
