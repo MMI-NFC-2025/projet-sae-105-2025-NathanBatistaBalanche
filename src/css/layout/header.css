@@ -1,0 +1,30 @@
+.header {
+    position:sticky;
+    top:0;
+    z-index:10;
+}
+
+.header__top {
+    width:100%;
+    height:6.25rem;
+    display: flex;
+    align-items: center;
+    background: var(--purple-4);
+    gap: 60%;
+}
+
+.header__top a{
+    color: inherit;
+    text-decoration:none;
+}
+
+.header__logo-img {
+    width:3.75rem;
+    margin-left:0.75rem;
+}
+
+.header__nav-open {
+    width:2.5rem;
+    background-color: var(--blue-4);
+    border:none;
+}

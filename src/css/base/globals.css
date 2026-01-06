@@ -2,15 +2,16 @@ figure {
     margin: 0;
 }
 
-header {
-    background-color : var(--purple-4);
+header a {
+    color: inherit;
+    text-decoration:none;
 }
 
 body {
     background-color: var(--light-gray-1);
 }
 
-p, li {
+p, li, figcaption {
     font-family: "Poppins", serif;
 }
 
@@ -32,7 +33,11 @@ h3 {
     font-size: var(--heading-3)
 }
 
-a{
+a {
     color: var(--black);
     text-decoration:underline;
+}
+
+article {
+    margin-left: 0.9375rem;
 }
