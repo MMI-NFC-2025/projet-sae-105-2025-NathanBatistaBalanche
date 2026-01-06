@@ -1,0 +1,11 @@
+figure img {
+    width: 22.6875rem;
+    height:13.75rem;
+}
+
+main img:not(button img) {
+    width: 22.6875rem;
+    height:13.75rem;
+}
+
+/* En attendant de faire les bon styles, je met ça pour pas que ça dépasse l'écran */
