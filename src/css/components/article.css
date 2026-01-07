@@ -75,3 +75,7 @@
 .article__byline-author {
     padding-left: 0rem;
 }
+
+.article__red {
+    color: var(--red);
+}
