@@ -10,7 +10,7 @@
     display: flex;
     align-items: center;
     background: var(--purple-4);
-    gap: 60%;
+    gap: 65%;
 }
 
 .header__top a{
