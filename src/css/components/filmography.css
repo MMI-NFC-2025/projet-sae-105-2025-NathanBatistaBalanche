@@ -1,0 +1,71 @@
+.filmography {
+  display: flex;
+  flex-direction: column;
+  max-width: 24.5625rem;
+  margin: 0 auto;
+  padding: 0rem;
+  box-sizing: border-box;
+  margin-top: 0.625rem;
+  gap: 1.25rem;
+  margin-bottom:1.25rem;
+}
+
+.filmography__card {
+  width: 22.6875rem;
+  max-width: 22.6875rem;
+  min-width: 22.6875rem;
+  padding: 1.5rem 1.25rem;
+  margin: 0rem;
+  box-sizing: border-box;
+  border-radius: 18px;
+  background: var(--black);
+  border: 0.0625rem solid var(--dark-gray-1);
+  box-shadow: 0 0.625rem 1.5625rem var(--black);
+  color: var(--light-gray-1);
+  position: relative;
+  overflow: hidden;
+}
+
+.filmography__card::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 0.25rem;
+  background: var(--purple-1);
+}
+
+.article__card-image {
+  width: 20.0625rem;
+  height: auto;
+  object-fit: cover;
+  border-radius: 0.75rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+.filmography__card-title {
+  color: var(--light-gray-1);
+  font-size: var(--heading-3);
+  font-weight: 700;
+  margin: 0 0 0.75rem 0;
+}
+
+.filmography__card-description {
+  font-size: var(--body-2);
+  line-height: 1.5;
+  margin: 0;
+}
+
+.filmography__card-title,
+.filmography__card-description {
+  text-align: center;
+  margin-left: 0;
+  margin-right: 0;
+}
+
+.filmography__card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0.9375rem 2.1875rem var(--black);
+}

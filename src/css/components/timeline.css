@@ -19,7 +19,7 @@
   background: var(--black);
   border: 0.0625rem solid var(--dark-gray-1);
   box-shadow: 0 0.625rem 1.5625rem var(--black);
-  color: #f9fafb;
+  color: var(--light-gray-1);
   position: relative;
   overflow: hidden;
   margin-bottom:1.25rem;
