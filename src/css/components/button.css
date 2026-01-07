@@ -1,0 +1,27 @@
+.hero__cta {
+  background: var(--purple-3);
+  color: var(--light-gray-1);
+  padding: 1.25rem;
+  font-size: var(--button);
+  font-family: "Poppins", serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 0.9375rem;
+  border: 0.125rem solid var(--black);
+  cursor: pointer;
+  transition: all 0.2s ease;
+  box-shadow: none;
+  margin: 0 auto;
+  display: flex;
+  margin-top:0.625rem;
+  margin-bottom:0.625rem;
+}
+
+.hero__cta:hover {
+  background: var(--purple-3);
+  transform: translateY(-1px);
+}
+
+.hero__cta:active {
+  transform: translateY(0);
+}
