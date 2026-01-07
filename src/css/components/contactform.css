@@ -1,0 +1,55 @@
+.form {
+  max-width: 24.5625rem;
+  width: 22.6875rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--black);
+}
+
+.form__group {
+  margin-bottom: 18px;
+}
+
+.form__group--name .form__row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.form__label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.form__required {
+  color: var(--red);
+}
+
+.form__input {
+  width: 100%;
+  padding: 6px 8px;
+  border: 0.5px solid var(--purple-1);
+  border-radius: 0;
+  font-family: inherit;
+  font-size: 14px;
+  outline: none;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+
+.form__input--textarea {
+  resize: vertical;
+  min-height: 140px;
+}
+
+.form__input:focus {
+  border-color: var(--black);
+}
+
+.form__hint {
+  display: block;
+  margin-top: 4px;
+  font-size: 12px;
+  color: var(--light-gray-3);
+  
+}
