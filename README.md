@@ -3,8 +3,8 @@
 
 À compléter :
 
-- NOM :
-- PRÉNOM :
-- GROUPE :
-- URL du site :
-- URL FIGMA :
+- NOM : Batista Balanche
+- PRÉNOM : Nathan
+- GROUPE : A2
+- URL du site : https://trajectory.nathan-batista-balanche.fr/
+- URL FIGMA : https://www.figma.com/design/c48ZSCdGhSJVtjPWQPSkv5/Maquettes-projet-individuel-%E2%80%94-Nathan-BATISTA-BALANCHE?node-id=3701-372&t=1Jcux4RlIZG2HsPU-1
