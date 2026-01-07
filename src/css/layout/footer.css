@@ -5,6 +5,7 @@
     background-color: var(--dark-gray-1);
     margin : 0px;
     overflow:hidden;
+    margin-top:0.625rem;
 }
 
 .footer__col--logo::after, .footer__col--social::after, .footer__col--contact::after {
