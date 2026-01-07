@@ -49,6 +49,55 @@
             </nav>
         </header>
         <main>
+            <section class="hero">
+                <h1 class="hero__title">Contact</h1>
+                <p class="hero__text">
+                    Use this form to contact us if you have interesting feedback or remarks to share.
+                </p>
+            </section>
+            <article class="article">
+                <form class="form" action="#" method="post">
+                    <div class="form__group form__group--name">
+                        <label class="form__label" for="firstname">
+                        Name<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+
+                        <div class="form__row">
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="firstname" name="firstname" required aria-required="true">
+                            <span class="form__hint">First name</span>
+                        </div>
+
+                        <div class="form__field">
+                            <input class="form__input" type="text" id="lastname" name="lastname" required aria-required="true">
+                            <span class="form__hint">Last name</span>
+                        </div>
+                        </div>
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="email">
+                        Email<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <input class="form__input" type="email" id="email" name="email" required aria-required="true">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="subject">
+                        Subject<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <input class="form__input" type="text" id="subject" name="subject" required aria-required="true">
+                    </div>
+
+                    <div class="form__group">
+                        <label class="form__label" for="message">
+                        Message<span class="form__required" aria-hidden="true">*</span>
+                        </label>
+                        <textarea class="form__input form__input--textarea" id="message" name="message" rows="6" required aria-required="true"></textarea>
+                    </div>
+                </form>
+                <button type="submit" class="hero__cta">Send form</button>
+            </article>
         </main>
         <footer class="footer">
             <div class="footer__col footer__col--logo">
